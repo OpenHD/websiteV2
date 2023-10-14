@@ -140,19 +140,21 @@ li {
 .navbar .navbar-brand {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
+	margin-right: 0.1rem;
 }
 
 .navbar .logo-image img {
-	width: 108px;
-	height: 32px;
+	height: 42px;
+	width: auto;
 }
 
 .navbar .logo-text {
-	color: #fff;
-	font-weight: 500;
-	line-height: 1rem;
-	font-size: 1.575rem;
-	text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 1.575rem;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .offcanvas-collapse {
