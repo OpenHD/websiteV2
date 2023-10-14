@@ -286,11 +286,14 @@ li {
 }
 
 .information .container-fluid .row div:last-child {
-  	background-color: white;
+  	background-color: var(--primary);
 }
 
 .information .container-fluid .row div:nth-child(2) {
-  	background-color: var(--primary-light);
+  	background-color: var(--primary);
+}
+.information .container-fluid .row div:nth-child(3) {
+	background-color: var(--primary);
 }
 
 
