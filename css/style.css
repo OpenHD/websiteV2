@@ -16,6 +16,7 @@ Table Of Contents:
 - Media Queries
 ******************************************/
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 /**************************/
 /*     General Styles     */
@@ -159,7 +160,7 @@ li {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 2.75rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 4rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
 	width: 100%;
