@@ -375,7 +375,7 @@ li {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px #0ee951;
+	box-shadow: 5px 5px 0px 0px white;
 }
 
 
