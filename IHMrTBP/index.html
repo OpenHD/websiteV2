@@ -370,7 +370,7 @@
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
-                            <p><a href="#" id="mac-download">IOS</a></p>
+                            <p><a href="#" id="mac-download-2">IOS</a></p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
@@ -378,7 +378,7 @@
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
-                            <p><a href="#" id="mac-download">Mac</a></p>
+                            <p><a href="#" id="mac-download-3">Mac</a></p>
                         </div>
                     </div>
                 </div>
@@ -388,6 +388,14 @@
     <!-- JavaScript -->
     <script>
         document.getElementById('mac-download').addEventListener('click', function (event) {
+            event.preventDefault();
+            alert('MacOS/IOS support paused. Seeking new developer.');
+        });
+        document.getElementById('mac-download-2').addEventListener('click', function (event) {
+            event.preventDefault();
+            alert('MacOS/IOS support paused. Seeking new developer.');
+        });
+        document.getElementById('mac-download-3').addEventListener('click', function (event) {
             event.preventDefault();
             alert('MacOS/IOS support paused. Seeking new developer.');
         });
