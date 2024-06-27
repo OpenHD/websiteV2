@@ -370,15 +370,15 @@
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
-                            <p><a href="https://cloudsmith.io/openhd">IOS(soon)</a></p>
+                            <p><a href="#" id="mac-download">IOS</a></p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
-                            <p><a href="https://cloudsmith.io/openhd">Windows(soon)</a></p>
+                            <p><a href="#" id="windows-download">Windows</a></p>
                         </div>
                         <div class="block d-flex align-items-center">
                             <p class="pe-2"><i class="far fa-circle fa-1x"></i></p>
-                            <p><a href="https://cloudsmith.io/openhd">Mac(soon)</a></p>
+                            <p><a href="#" id="mac-download">Mac</a></p>
                         </div>
                     </div>
                 </div>
@@ -389,7 +389,11 @@
     <script>
         document.getElementById('mac-download').addEventListener('click', function (event) {
             event.preventDefault();
-            alert('Not supported yet');
+            alert('MacOS/IOS support paused. Seeking new developer.');
+        });
+        document.getElementById('windows-download').addEventListener('click', function (event) {
+            event.preventDefault();
+            alert('Windows support paused. Seeking new developer.');
         });
     </script>
     <!-- Partners -->
