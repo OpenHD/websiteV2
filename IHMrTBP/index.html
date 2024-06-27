@@ -237,32 +237,48 @@
     <section class="plans d-flex align-items-center py-5" id="downloads">
         <div class="container text-light" >
             <div class="text-center pb-4">
-                <h2 class="py-2">Downloads</h2>
-                <p class="para-light">Here you can find the most important OpenHD Downloads. We recommend just downloading the OpenHD ImageWriter, which can internally Download all the listed files here, and let's you easily configure OpenHD.</p>
-            </div>
-            <div class="row gy-4" data-aos="zoom-in">
-                <div class="col-lg-4">
-                    <div class="card bg-transparent px-4">
-                        <h4 class="py-2">OpenHD ImageWriter</h4>
-                        <p class="py-3">The OpenHD ImageWriter is a software tool that makes it easy to install and configure OpenHD. It lets you choose and download all Images within itself, configure OpenHD, and write everything to a SD or USB-Stick. This simplifies the setup process for OpenHD.</p>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1.exe">Windows</a></p>
+                <h2 class="py-2">D<!-- downloads -->
+                    <section class="plans d-flex align-items-center py-5" id="downloads">
+                        <div class="container text-light">
+                            <div class="text-center pb-4">
+                                <h2 class="py-2">Downloads</h2>
+                                <p class="para-light">Here you can find the most important OpenHD Downloads. We recommend just downloading the OpenHD ImageWriter, which can internally Download all the listed files here, and let's you easily configure OpenHD.</p>
+                            </div>
+                            <div class="row gy-4" data-aos="zoom-in">
+                                <div class="col-lg-4">
+                                    <div class="card bg-transparent px-4">
+                                        <h4 class="py-2">OpenHD ImageWriter</h4>
+                                        <p class="py-3">The OpenHD ImageWriter is a software tool that makes it easy to install and configure OpenHD. It lets you choose and download all Images within itself, configure OpenHD, and write everything to a SD or USB-Stick. This simplifies the setup process for OpenHD.</p>
+                                        <div class="block d-flex align-items-center">
+                                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1.exe">Windows</a></p>
+                                        </div>
+                                        <div class="block d-flex align-items-center">
+                                            <p class="pe-2"><i class="far fa-pause-circle fa-1x"></i></p>
+                                            <p><a href="#" id="mac-download">Mac</a></p>
+                                        </div>
+                                        <div class="block d-flex align-items-center">
+                                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1-jammy.deb">Ubuntu Jammy</a></p>
+                                        </div>
+                                        <div class="block d-flex align-items-center">
+                                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
+                                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1-lunar.deb">Ubuntu Lunar</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1.dmg">Mac</a></p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1-jammy.deb">Ubuntu Jammy</a></p>
-                        </div>
-                        <div class="block d-flex align-items-center">
-                            <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                            <p><a href="https://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/ImageWriter/OpenHD-ImageWriter-2.0.1-lunar.deb">Ubuntu Lunar</a></p>
-                        </div>
-                    </div>  
-                </div>
+                    </section>
+                    
+                    <!-- JavaScript -->
+                    <script>
+                        document.getElementById('mac-download').addEventListener('click', function(event) {
+                            event.preventDefault();
+                            alert('MacOS support paused. Seeking new developer.');
+                        });
+                    </script>
+                    
 
                 <div class="col-lg-4">
                     <div class="card bg-transparent px-4">
