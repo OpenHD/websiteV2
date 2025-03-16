@@ -1,0 +1,56 @@
+<!-- Navigation -->
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+    <div class="container">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/images/OpenHD-Logo.png' | relative_url }}" alt="OpenHD Logo">
+        </a>
+
+        <!-- Text Logo -->
+        <a class="navbar-brand logo-text" href="{{ '/' | relative_url }}">OpenHD</a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Haupt-Navigation -->
+            <ul class="navbar-nav me-auto">
+                {% for item in site.data.navigation %}
+                    {% if item.dropdown %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                {{ item.name }}
+                            </a>
+                            <ul class="dropdown-menu">
+                                {% for subitem in item.dropdown %}
+                                    <li><a class="dropdown-item" href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <!-- Social-Icons -->
+            <ul class="navbar-nav social-icons">
+                {% for social in site.data.socials %}
+                    <li class="nav-item">
+                        <span class="fa-stack">
+                            <a href="{{ social.url }}" target="_blank" class="nav-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="{{ social.icon }} fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

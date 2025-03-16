@@ -1,0 +1,23 @@
+title: OpenHD
+description: Open source digital FPV ecosystem
+baseurl: "" # Nur ändern wenn Unterordner verwendet wird
+url: "https://openhdfpv.org" # Ihre GitHub Pages URL
+permalink: pretty
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+
+# Global variables
+
+# Social Media Links
+youtube_url: "https://www.youtube.com/@OpenHD-Official"
+email: "developers@openhdfpv.org"
+
+# Allgemeine Informationen
+description: "The ultimate OpenSource Digital Video solution, which doesn't require a doctors degree."

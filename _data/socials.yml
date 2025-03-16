@@ -1,0 +1,14 @@
+- url: https://github.com/OpenHD
+  icon: fab fa-github
+
+- url: https://t.me/OpenHD_User
+  icon: fab fa-telegram
+
+- url: https://discord.gg/P9kXs9N2RP
+  icon: fab fa-discord
+
+- url: https://forum.openhdfpv.org
+  icon: bi bi-chat-fill
+
+- url: https://www.facebook.com/groups/openhd
+  icon: fab fa-facebook

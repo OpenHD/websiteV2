@@ -1,0 +1,21 @@
+- title: "About Us"
+  links:
+    - title: "Features"
+      url: "/#features"
+    - title: "Downloads"
+      url: "/#downloads"
+    - title: "Team"
+      url: "https://openhd.gitbook.io/open-hd/general/team"
+    - title: "Partners"
+      url: "/#partners"
+
+- title: "Useful Links"
+  links:
+    - title: "Wiki"
+      url: "https://openhd.gitbook.io/"
+    - title: "FAQ"
+      url: "https://openhd.gitbook.io/open-hd/general/troubleshooting"
+    - title: "First Time Setup"
+      url: "https://openhd.gitbook.io/open-hd/hardware/first-time-setup"
+    - title: "GitHub"
+      url: "https://github.com/OpenHD"

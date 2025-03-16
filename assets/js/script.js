@@ -128,3 +128,6 @@ AOS.init({
     easing: "ease",
     once: true, // whether animation should happen only once - while scrolling down
 });
+
+// Automatisches Copyright Jahr
+document.querySelector('.copyright-year').textContent = new Date().getFullYear();

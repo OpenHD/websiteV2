@@ -1,0 +1,57 @@
+<footer class="footer text-light">
+    <div class="container">
+        <div class="row" data-aos="fade-right">
+            <!-- About Column -->
+            <div class="col-lg-3 py-4 py-md-5">
+                <div class="d-flex align-items-center">
+                    <h4>OpenHD</h4>
+                </div>
+                <p class="py-3 para-light">{{ site.description }}</p>
+                <div class="d-flex">
+                    <div class="me-3">
+                        <a href="{{ site.youtube_url }}" target="_blank">
+                            <i class="fab fa-youtube fa-2x py-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Footer Links -->
+            {% for section in site.data.footer %}
+            <div class="col-lg-3 py-4 py-md-5">
+                <div>
+                    <h4 class="py-2">{{ section.title }}</h4>
+                    {% for link in section.links %}
+                    <div class="d-flex align-items-center py-2">
+                        <i class="fas fa-caret-right"></i>
+                        <a href="{{ link.url | relative_url }}" class="ms-3">{{ link.title }}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <!-- Contact Column -->
+            <div class="col-lg-3 py-4 py-md-5">
+                <div class="d-flex align-items-center">
+                    <h4>Send us a Message.</h4>
+                </div>
+                <p class="py-3 para-light">For partnership or business inquiries, simply reach out to us here.</p>
+                <div class="d-flex align-items-center">
+                    <a class="btn" href="mailto:{{ site.email }}">
+                        <i class="fas fa-envelope me-2"></i>{{ site.email }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bottom Copyright -->
+<div class="bottom py-2 text-light">
+    <div class="container d-flex justify-content-between">
+        <div>
+            <p>Copyright © {{ 'now' | date: "%Y" }} OpenHD</p>
+        </div>
+    </div>
+</div>

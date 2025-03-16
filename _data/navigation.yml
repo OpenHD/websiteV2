@@ -1,0 +1,23 @@
+- name: Home
+  link: /
+  
+- name: About
+  link: /#about
+  
+- name: Features
+  link: /#features
+
+- name: Downloads
+  link: /#downloads
+
+- name: Changelogs
+  dropdown:
+    - name: 2.6-evo
+      link: /changelogs/2.6-evo
+    - name: 2.5-evo
+      link: /changelogs/2.5-evo
+    - name: 2.4.1-evo
+      link: /changelogs/2.4.1-evo
+
+- name: Contact
+  link: /privacy
