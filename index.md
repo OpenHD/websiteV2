@@ -211,41 +211,41 @@ og_image: /assets/images/og-image.jpg
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-pi-bullseye-configurable-release-06-26-2024-00-28-57.img.xz">RaspberryPi</a>
+                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-pi-bullseye-configurable-release-06-26-2024-00-28-57.img.xz" rel="nofollow">RaspberryPi</a>
                         </p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-radxa-zero3w--release-06-26-2024-00-28-55.img.xz">Radxa
+                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-radxa-zero3w--release-06-26-2024-00-28-55.img.xz" rel="nofollow">Radxa
                                 Zero 3</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-radxa-cm3--release-06-26-2024-00-29-10.img.xz">Radxa
+                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-radxa-cm3--release-06-26-2024-00-29-10.img.xz" rel="nofollow">Radxa
                                 CM 3 (RPI-IO)</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-rock5a--release-06-26-2024-00-29-36.img.xz">Radxa
+                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-rock5a--release-06-26-2024-00-29-36.img.xz" rel="nofollow">Radxa
                                 Rock5A</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-pi-bullseye-configurable-release-06-26-2024-00-28-57.img.xz">Radxa
+                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-pi-bullseye-configurable-release-06-26-2024-00-28-57.img.xz" rel="nofollow">Radxa
                                 Rock5B</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p style="margin-right: 20px;"><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x86-lunar--release-06-26-2024-00-29-52.img.xz">X86-Full</a></p>
-                        <p><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x86-minimal--release-06-26-2024-00-28-56.img.xz">X86-Lite</a></p>
+                        <p style="margin-right: 20px;"><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x86-lunar--release-06-26-2024-00-29-52.img.xz" rel="nofollow">X86-Full</a></p>
+                        <p><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x86-minimal--release-06-26-2024-00-28-56.img.xz" rel="nofollow">X86-Lite</a></p>
                     </div>                       
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x20-hotfix-release-06-26-2024-00-28-59.img.xz">OpenHD X20 VTX</a></p>
+                        <p><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x20-hotfix-release-06-26-2024-00-28-59.img.xz" rel="nofollow">OpenHD X20 VTX</a></p>
                     </div>
                 </div>
             </div>
