@@ -176,7 +176,7 @@ og_image: /assets/images/og-image.jpg
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.3/OpenHD-ImageWriter-2.0.4.exe">Windows</a>
+                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.4/OpenHD-ImageWriter-2.0.4.exe">Windows</a>
                         </p>
                     </div>
                     <div class="block d-flex align-items-center">
