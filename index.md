@@ -245,7 +245,7 @@ og_image: /assets/images/og-image.jpg
                     </div>                       
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
-                        <p><a href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-x20-hotfix-release-06-26-2024-00-28-59.img.xz" rel="nofollow">OpenHD X20 VTX</a></p>
+                        <p><a href="http://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/2.6.4/OpenHD-image-x20-2.6.4-release.img.xz" rel="nofollow">OpenHD X20 VTX</a></p>
                     </div>
                 </div>
             </div>
