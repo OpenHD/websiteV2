@@ -176,7 +176,7 @@ og_image: /assets/images/og-image.jpg
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://openhd-images.fra1.cdn.digitaloceanspaces.com/Downloader/release/2.6/OpenHD-ImageWriter-2.0.3.exe">Windows</a>
+                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.3/OpenHD-ImageWriter-2.0.4.exe">Windows</a>
                         </p>
                     </div>
                     <div class="block d-flex align-items-center">
@@ -186,19 +186,19 @@ og_image: /assets/images/og-image.jpg
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://openhd-images.fra1.cdn.digitaloceanspaces.com/Downloader/release/2.6/openhdimagewriter_2.0.3_jammy_amd64.deb">Ubuntu
+                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.4/openhdimagewriter_2.0.4_amd64_jammy.deb">Ubuntu
                                 Jammy</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://openhd-images.fra1.cdn.digitaloceanspaces.com/Downloader/release/2.6/openhdimagewriter_2.0.3_lunar_amd64.deb">Ubuntu
+                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.4/openhdimagewriter_2.0.4_amd64_lunar.deb">Ubuntu
                                 Lunar</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://openhd-images.fra1.cdn.digitaloceanspaces.com/Downloader/release/2.6/openhdimagewriter_2.0.3_noble_amd64.deb">Ubuntu
+                                href="https://github.com/OpenHD/OpenHD-ImageWriter/releases/download/v2.0.4/openhdimagewriter_2.0.4_amd64_noble.deb">Ubuntu
                                 Noble</a></p>
                     </div>
                 </div>
@@ -211,13 +211,13 @@ og_image: /assets/images/og-image.jpg
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-pi-bullseye-configurable-release-06-26-2024-00-28-57.img.xz" rel="nofollow">RaspberryPi</a>
+                                href="http://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/2.6.4/OpenHD-image-pi-bullseye-2.6.4-release.img.xz" rel="nofollow">RaspberryPi</a>
                         </p>
                     </div>
                     <div class="block d-flex align-items-center">
                         <p class="pe-2"><i class="far fa-check-circle fa-1x"></i></p>
                         <p><a
-                                href="https://download.openhdfpv.org/download/image/filename/OpenHD-image-radxa-zero3w--release-06-26-2024-00-28-55.img.xz" rel="nofollow">Radxa
+                                href="http://fra1.digitaloceanspaces.com/openhd-images/Downloader/release/2.6.4/OpenHD-image-radxa-zero3w-2.6.4-release.img.xz" rel="nofollow">Radxa
                                 Zero 3</a></p>
                     </div>
                     <div class="block d-flex align-items-center">
