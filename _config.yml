@@ -1,7 +1,7 @@
 title: OpenHD
 description: Open source digital FPV ecosystem
-baseurl: "" # Nur ändern wenn Unterordner verwendet wird
-url: "https://openhdfpv.org" # Ihre GitHub Pages URL
+baseurl: "/websiteV2" # GitHub Pages subpath für legacy website
+url: "https://openhd.github.io" # GitHub Pages URL
 permalink: pretty
 plugins:
   - jekyll-feed
