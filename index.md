@@ -330,7 +330,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.arducam.com/openhd/">
-                                                <img class="avatar" src="./assets/images/arducam.png" alt="ArduCam">
+                                                <img class="avatar" src="{{ '/assets/images/arducam.png' | relative_url }}" alt="ArduCam">
                                             </a>
                                         </div>
                                     </div>
@@ -347,7 +347,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://radxa.com/">
-                                                <img class="avatar" src="./assets/images/radxa.png" alt="Radxa">
+                                                <img class="avatar" src="{{ '/assets/images/radxa.png' | relative_url }}" alt="Radxa">
                                             </a>
                                         </div>
                                     </div>
@@ -364,7 +364,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.veye.cc/">
-                                                <img class="avatar" src="./assets/images/veye.png" alt="ArduCam">
+                                                <img class="avatar" src="{{ '/assets/images/veye.png' | relative_url }}" alt="ArduCam">
                                             </a>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="http://www.sonicmodell.com/">
-                                                <img class="avatar" src="./assets/images/sonicmodell.png"
+                                                <img class="avatar" src="{{ '/assets/images/sonicmodell.png' | relative_url }}"
                                                     alt="SonicModell">
                                             </a>
                                         </div>
@@ -399,7 +399,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.cloudsmith.io">
-                                                <img class="avatar" src="./assets/images/cloudsmith.png"
+                                                <img class="avatar" src="{{ '/assets/images/cloudsmith.png' | relative_url }}"
                                                     alt="CloudSmith">
                                             </a>
                                         </div>
@@ -416,7 +416,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.pcbway.com/">
-                                                <img class="avatar" src="./assets/images/pcbway.png" alt="ArduCam">
+                                                <img class="avatar" src="{{ '/assets/images/pcbway.png' | relative_url }}" alt="ArduCam">
                                             </a>
                                         </div>
                                     </div>
@@ -432,7 +432,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.digitalocean.com">
-                                                <img class="avatar" src="./assets/images/digitalocean.png"
+                                                <img class="avatar" src="{{ '/assets/images/digitalocean.png' | relative_url }}"
                                                     alt="DigitalOcean">
                                             </a>
                                         </div>
@@ -450,7 +450,7 @@ og_image: /assets/images/og-image.jpg
                                     <div class="d-flex pt-4">
                                         <div>
                                             <a href="https://www.stickermule.com/eu/custom-stickers">
-                                                <img class="avatar" src="./assets/images/stickermule.png"
+                                                <img class="avatar" src="{{ '/assets/images/stickermule.png' | relative_url }}"
                                                     alt="Stickermule">
                                             </a>
                                         </div>
@@ -466,7 +466,7 @@ og_image: /assets/images/og-image.jpg
                                         <div>
                                             <a href="https://www.maple-wireless.com">
                                                 <img class="avatar"
-                                                src="./assets/images/maple.png"
+                                                src="{{ '/assets/images/maple.png' | relative_url }}"
                                                 alt="Waveshare" style="width: 50%; display: block; margin: 0 auto;">
                                             </a>
                                         </div>
@@ -482,7 +482,7 @@ og_image: /assets/images/og-image.jpg
                                         <div>
                                             <a href="https://www.linux-automation.com">
                                                 <img class="avatar"
-                                                    src="./assets/images/linuxauto.svg"
+                                                    src="{{ '/assets/images/linuxauto.svg' | relative_url }}"
                                                     alt="Linux Automation">
                                             </a>
                                         </div>
@@ -499,7 +499,7 @@ og_image: /assets/images/og-image.jpg
                                         <div>
                                             <a href="https://beasttx.com/">
                                                 <img class="avatar"
-                                                    src="./assets/images/beasttx_text_r_blk2.png"
+                                                    src="{{ '/assets/images/beasttx_text_r_blk2.png' | relative_url }}"
                                                     alt="BeastTX">
                                             </a>
                                         </div>
@@ -516,7 +516,7 @@ og_image: /assets/images/og-image.jpg
                                         <div>
                                             <a href="https://www.tm-sys.it/">
                                                 <img class="avatar"
-                                                    src="./assets/images/TM-IT_Logo_white_v2.png"
+                                                    src="{{ '/assets/images/TM-IT_Logo_white_v2.png' | relative_url }}"
                                                     alt="TM IT-Systemhaus">
                                             </a>
                                         </div>
